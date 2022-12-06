@@ -1,0 +1,14 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 08/12/18 by Ankush
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
